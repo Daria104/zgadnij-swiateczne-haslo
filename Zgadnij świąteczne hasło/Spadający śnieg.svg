@@ -1,0 +1,250 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="100%" height="100%" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    
+    <radialGradient id="softFlake" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.95" />
+      <stop offset="60%" stop-color="#E0F2FE" stop-opacity="0.5" />
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0" />
+    </radialGradient>
+
+    
+    <g id="crystalFlake" stroke="#FFFFFF" stroke-width="1.6" stroke-linecap="round" fill="none">
+      <line x1="0" y1="-10" x2="0" y2="10" />
+      <line x1="-8.66" y1="-5" x2="8.66" y2="5" />
+      <line x1="8.66" y1="-5" x2="-8.66" y2="5" />
+      <polyline points="-3,-6 0,-3 3,-6" />
+      <polyline points="-3,6 0,3 3,6" />
+      <polyline points="-6.5,-1.5 -2.5,-1.5 -4,-5" />
+      <polyline points="6.5,1.5 2.5,1.5 4,5" />
+      <polyline points="6.5,-1.5 2.5,-1.5 4,-5" />
+      <polyline points="-6.5,1.5 -2.5,1.5 -4,5" />
+    </g>
+
+    <style>
+      .fall-slow-1 {
+        animation: snowFall1 26s linear infinite;
+      }
+      .fall-slow-2 {
+        animation: snowFall2 34s linear infinite;
+      }
+      .fall-slow-3 {
+        animation: snowFall3 42s linear infinite;
+      }
+      .sway {
+        animation: snowSway 9s ease-in-out infinite alternate;
+      }
+
+      @keyframes snowFall1 {
+        0%   { transform: translateY(-60px); opacity: 0; }
+        10%  { opacity: 0.85; }
+        90%  { opacity: 0.85; }
+        100% { transform: translateY(1140px); opacity: 0; }
+      }
+
+      @keyframes snowFall2 {
+        0%   { transform: translateY(-60px); opacity: 0; }
+        12%  { opacity: 0.65; }
+        88%  { opacity: 0.65; }
+        100% { transform: translateY(1140px); opacity: 0; }
+      }
+
+      @keyframes snowFall3 {
+        0%   { transform: translateY(-60px); opacity: 0; }
+        15%  { opacity: 0.45; }
+        85%  { opacity: 0.45; }
+        100% { transform: translateY(1140px); opacity: 0; }
+      }
+
+      @keyframes snowSway {
+        0%   { transform: translateX(-18px) rotate(-15deg); }
+        100% { transform: translateX(18px) rotate(15deg); }
+      }
+    </style>
+  </defs>
+
+  
+  <g class="fall-slow-1" style="animation-delay: -2s;">
+    <use href="#crystalFlake" x="90" y="0" class="sway" transform="scale(1.1)" />
+  </g>
+  <g class="fall-slow-1" style="animation-delay: -9s;">
+    <circle cx="210" cy="0" r="6" fill="url(#softFlake)" class="sway" />
+  </g>
+  <g class="fall-slow-1" style="animation-delay: -15s;">
+    <use href="#crystalFlake" x="340" y="0" class="sway" transform="scale(0.95)" />
+  </g>
+  <g class="fall-slow-1" style="animation-delay: -5s;">
+    <circle cx="470" cy="0" r="7" fill="url(#softFlake)" class="sway" />
+  </g>
+  <g class="fall-slow-1" style="animation-delay: -21s;">
+    <use href="#crystalFlake" x="610" y="0" class="sway" transform="scale(1.15)" />
+  </g>
+  <g class="fall-slow-1" style="animation-delay: -12s;">
+    <circle cx="740" cy="0" r="6" fill="url(#softFlake)" class="sway" />
+  </g>
+  <g class="fall-slow-1" style="animation-delay: -7s;">
+    <use href="#crystalFlake" x="870" y="0" class="sway" transform="scale(1.05)" />
+  </g>
+  <g class="fall-slow-1" style="animation-delay: -18s;">
+    <circle cx="990" cy="0" r="6.5" fill="url(#softFlake)" class="sway" />
+  </g>
+  <g class="fall-slow-1" style="animation-delay: -3s;">
+    <use href="#crystalFlake" x="1120" y="0" class="sway" transform="scale(1.1)" />
+  </g>
+  <g class="fall-slow-1" style="animation-delay: -14s;">
+    <circle cx="1240" cy="0" r="6" fill="url(#softFlake)" class="sway" />
+  </g>
+  <g class="fall-slow-1" style="animation-delay: -24s;">
+    <use href="#crystalFlake" x="1360" y="0" class="sway" transform="scale(0.95)" />
+  </g>
+  <g class="fall-slow-1" style="animation-delay: -11s;">
+    <circle cx="1470" cy="0" r="7" fill="url(#softFlake)" class="sway" />
+  </g>
+  <g class="fall-slow-1" style="animation-delay: -19s;">
+    <use href="#crystalFlake" x="1580" y="0" class="sway" transform="scale(1.15)" />
+  </g>
+  <g class="fall-slow-1" style="animation-delay: -6s;">
+    <circle cx="1685" cy="0" r="6" fill="url(#softFlake)" class="sway" />
+  </g>
+  <g class="fall-slow-1" style="animation-delay: -22s;">
+    <use href="#crystalFlake" x="1790" y="0" class="sway" transform="scale(1.05)" />
+  </g>
+  <g class="fall-slow-1" style="animation-delay: -16s;">
+    <circle cx="1885" cy="0" r="6.5" fill="url(#softFlake)" class="sway" />
+  </g>
+  <g class="fall-slow-1" style="animation-delay: -1s;">
+    <circle cx="540" cy="0" r="5.5" fill="url(#softFlake)" class="sway" />
+  </g>
+  <g class="fall-slow-1" style="animation-delay: -25s;">
+    <circle cx="1310" cy="0" r="6" fill="url(#softFlake)" class="sway" />
+  </g>
+
+  
+  <g class="fall-slow-2" style="animation-delay: -4s;">
+    <circle cx="55" cy="0" r="4.5" fill="url(#softFlake)" class="sway" />
+  </g>
+  <g class="fall-slow-2" style="animation-delay: -14s;">
+    <use href="#crystalFlake" x="155" y="0" class="sway" transform="scale(0.75)" />
+  </g>
+  <g class="fall-slow-2" style="animation-delay: -24s;">
+    <circle cx="260" cy="0" r="5" fill="url(#softFlake)" class="sway" />
+  </g>
+  <g class="fall-slow-2" style="animation-delay: -8s;">
+    <use href="#crystalFlake" x="375" y="0" class="sway" transform="scale(0.8)" />
+  </g>
+  <g class="fall-slow-2" style="animation-delay: -19s;">
+    <circle cx="490" cy="0" r="4.5" fill="url(#softFlake)" class="sway" />
+  </g>
+  <g class="fall-slow-2" style="animation-delay: -29s;">
+    <circle cx="600" cy="0" r="4" fill="url(#softFlake)" class="sway" />
+  </g>
+  <g class="fall-slow-2" style="animation-delay: -11s;">
+    <use href="#crystalFlake" x="710" y="0" class="sway" transform="scale(0.78)" />
+  </g>
+  <g class="fall-slow-2" style="animation-delay: -21s;">
+    <circle cx="820" cy="0" r="5" fill="url(#softFlake)" class="sway" />
+  </g>
+  <g class="fall-slow-2" style="animation-delay: -3s;">
+    <use href="#crystalFlake" x="930" y="0" class="sway" transform="scale(0.72)" />
+  </g>
+  <g class="fall-slow-2" style="animation-delay: -17s;">
+    <circle cx="1040" cy="0" r="4.5" fill="url(#softFlake)" class="sway" />
+  </g>
+  <g class="fall-slow-2" style="animation-delay: -27s;">
+    <use href="#crystalFlake" x="1155" y="0" class="sway" transform="scale(0.8)" />
+  </g>
+  <g class="fall-slow-2" style="animation-delay: -6s;">
+    <circle cx="1265" cy="0" r="5" fill="url(#softFlake)" class="sway" />
+  </g>
+  <g class="fall-slow-2" style="animation-delay: -15s;">
+    <use href="#crystalFlake" x="1380" y="0" class="sway" transform="scale(0.75)" />
+  </g>
+  <g class="fall-slow-2" style="animation-delay: -31s;">
+    <circle cx="1495" cy="0" r="4.5" fill="url(#softFlake)" class="sway" />
+  </g>
+  <g class="fall-slow-2" style="animation-delay: -9s;">
+    <use href="#crystalFlake" x="1605" y="0" class="sway" transform="scale(0.78)" />
+  </g>
+  <g class="fall-slow-2" style="animation-delay: -22s;">
+    <circle cx="1715" cy="0" r="5" fill="url(#softFlake)" class="sway" />
+  </g>
+  <g class="fall-slow-2" style="animation-delay: -13s;">
+    <use href="#crystalFlake" x="1825" y="0" class="sway" transform="scale(0.74)" />
+  </g>
+  <g class="fall-slow-2" style="animation-delay: -26s;">
+    <circle cx="1905" cy="0" r="4" fill="url(#softFlake)" class="sway" />
+  </g>
+  <g class="fall-slow-2" style="animation-delay: -2s;">
+    <circle cx="430" cy="0" r="4.5" fill="url(#softFlake)" class="sway" />
+  </g>
+  <g class="fall-slow-2" style="animation-delay: -18s;">
+    <circle cx="1195" cy="0" r="4.5" fill="url(#softFlake)" class="sway" />
+  </g>
+
+  
+  <g class="fall-slow-3" style="animation-delay: -6s;">
+    <circle cx="110" cy="0" r="3" fill="#FFFFFF" opacity="0.55" class="sway" />
+  </g>
+  <g class="fall-slow-3" style="animation-delay: -17s;">
+    <circle cx="230" cy="0" r="3.5" fill="#FFFFFF" opacity="0.5" class="sway" />
+  </g>
+  <g class="fall-slow-3" style="animation-delay: -28s;">
+    <circle cx="340" cy="0" r="3" fill="#FFFFFF" opacity="0.6" class="sway" />
+  </g>
+  <g class="fall-slow-3" style="animation-delay: -11s;">
+    <circle cx="455" cy="0" r="3.5" fill="#FFFFFF" opacity="0.5" class="sway" />
+  </g>
+  <g class="fall-slow-3" style="animation-delay: -35s;">
+    <circle cx="570" cy="0" r="3" fill="#FFFFFF" opacity="0.55" class="sway" />
+  </g>
+  <g class="fall-slow-3" style="animation-delay: -22s;">
+    <circle cx="680" cy="0" r="3" fill="#FFFFFF" opacity="0.45" class="sway" />
+  </g>
+  <g class="fall-slow-3" style="animation-delay: -4s;">
+    <circle cx="790" cy="0" r="3.5" fill="#FFFFFF" opacity="0.55" class="sway" />
+  </g>
+  <g class="fall-slow-3" style="animation-delay: -19s;">
+    <circle cx="895" cy="0" r="3" fill="#FFFFFF" opacity="0.5" class="sway" />
+  </g>
+  <g class="fall-slow-3" style="animation-delay: -31s;">
+    <circle cx="1005" cy="0" r="3.5" fill="#FFFFFF" opacity="0.55" class="sway" />
+  </g>
+  <g class="fall-slow-3" style="animation-delay: -14s;">
+    <circle cx="1115" cy="0" r="3" fill="#FFFFFF" opacity="0.5" class="sway" />
+  </g>
+  <g class="fall-slow-3" style="animation-delay: -26s;">
+    <circle cx="1225" cy="0" r="3" fill="#FFFFFF" opacity="0.6" class="sway" />
+  </g>
+  <g class="fall-slow-3" style="animation-delay: -8s;">
+    <circle cx="1335" cy="0" r="3.5" fill="#FFFFFF" opacity="0.5" class="sway" />
+  </g>
+  <g class="fall-slow-3" style="animation-delay: -38s;">
+    <circle cx="1445" cy="0" r="3" fill="#FFFFFF" opacity="0.55" class="sway" />
+  </g>
+  <g class="fall-slow-3" style="animation-delay: -21s;">
+    <circle cx="1555" cy="0" r="3" fill="#FFFFFF" opacity="0.45" class="sway" />
+  </g>
+  <g class="fall-slow-3" style="animation-delay: -12s;">
+    <circle cx="1665" cy="0" r="3.5" fill="#FFFFFF" opacity="0.55" class="sway" />
+  </g>
+  <g class="fall-slow-3" style="animation-delay: -33s;">
+    <circle cx="1775" cy="0" r="3" fill="#FFFFFF" opacity="0.5" class="sway" />
+  </g>
+  <g class="fall-slow-3" style="animation-delay: -16s;">
+    <circle cx="1870" cy="0" r="3.5" fill="#FFFFFF" opacity="0.55" class="sway" />
+  </g>
+  <g class="fall-slow-3" style="animation-delay: -3s;">
+    <circle cx="35" cy="0" r="3" fill="#FFFFFF" opacity="0.5" class="sway" />
+  </g>
+  <g class="fall-slow-3" style="animation-delay: -25s;">
+    <circle cx="295" cy="0" r="3" fill="#FFFFFF" opacity="0.45" class="sway" />
+  </g>
+  <g class="fall-slow-3" style="animation-delay: -9s;">
+    <circle cx="635" cy="0" r="3.5" fill="#FFFFFF" opacity="0.5" class="sway" />
+  </g>
+  <g class="fall-slow-3" style="animation-delay: -30s;">
+    <circle cx="1070" cy="0" r="3" fill="#FFFFFF" opacity="0.55" class="sway" />
+  </g>
+  <g class="fall-slow-3" style="animation-delay: -18s;">
+    <circle cx="1520" cy="0" r="3" fill="#FFFFFF" opacity="0.5" class="sway" />
+  </g>
+</svg>
